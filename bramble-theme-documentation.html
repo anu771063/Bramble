@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bramble — theme documentation</title>
+<title>Bramble Theme Documentation</title>
 <meta name="description" content="Setup and settings documentation for the Bramble Shopify theme.">
 <style>
   :root {
@@ -116,7 +116,7 @@
 
   <main>
     <h1>Bramble documentation</h1>
-    <p class="lede">Bramble is built for pet brands selling food, treats and supplements — products people buy
+    <p class="lede">Bramble is built for pet brands selling food, treats and supplements. These are products people buy
     again and again for a specific animal. This guide covers setup, settings and the pet profile system.</p>
 
     <section id="start">
@@ -129,7 +129,7 @@
         <li><strong>Add your logo and favicon.</strong> In the theme editor, open <em>Theme settings → Favicon</em>
           for the browser icon, and the <em>Header</em> section for your logo. Any aspect ratio works.</li>
         <li><strong>Set up your menus.</strong> Bramble uses your menu handled <code>main-menu</code> in the header
-          and <code>footer</code> in the footer. Nested menus render as a mega menu — see
+          and <code>footer</code> in the footer. Nested menus render as a mega menu. See
           <a href="#sections">Sections</a>.</li>
         <li><strong>Choose your colours.</strong> <em>Theme settings → Colors</em>. Read the note on contrast in
           <a href="#accessibility">Accessibility</a> before changing these.</li>
@@ -146,7 +146,7 @@
 
     <section id="pets">
       <h2>Pet profiles</h2>
-      <p>A shopper sets up a profile for their animal — name, species, life stage, weight and anything to avoid.
+      <p>A shopper sets up a profile for their animal, including its name, species, life stage, weight and anything to avoid.
       That profile then shapes what they see across your store.</p>
       <h3>What the profile changes</h3>
       <table>
@@ -168,7 +168,7 @@
         </tbody>
       </table>
       <p>If you haven't supplied fit details for a product, no badge appears and the card looks like an ordinary
-      product card. Nothing breaks — you can add fit data to your bestsellers first and the rest later.</p>
+      product card. Nothing breaks. You can add fit data to your bestsellers first and the rest later.</p>
       <h3>Where profiles are stored</h3>
       <p>In the shopper's own browser. No customer account is needed, no app is involved, and the information is
       never sent to you or anyone else. This means a shopper who switches device or clears their browser data
@@ -201,7 +201,7 @@
       <ol class="steps">
         <li>Go to <em>Settings → Custom data → Products</em> in your Shopify admin.</li>
         <li>Click <em>Add definition</em>.</li>
-        <li>Set the namespace and key exactly as shown below — use <code>bramble</code> as the namespace.</li>
+        <li>Set the namespace and key exactly as shown below. Use <code>bramble</code> as the namespace.</li>
         <li>Choose the matching type, then save.</li>
         <li>Repeat for each row. Then do the same under <em>Custom data → Variants</em> for the variant metafield.</li>
       </ol>
@@ -235,7 +235,7 @@ Moisture: 10%</code></pre>
       <h3>How the feeding plan is calculated</h3>
       <p>Daily portion is the animal's weight multiplied by <code>portion_per_kg</code>. A 12&nbsp;kg dog with a
       <code>portion_per_kg</code> of 15 gets 180&nbsp;g a day. How long an order lasts is the variant's
-      <code>net_weight_g</code> divided by that daily portion — a 2&nbsp;kg bag at 180&nbsp;g a day lasts about
+      <code>net_weight_g</code> divided by that daily portion. A 2&nbsp;kg bag at 180&nbsp;g a day lasts about
       11 days.</p>
       <div class="note">
         <strong>Only fill in what you know</strong>
@@ -252,23 +252,23 @@ Moisture: 10%</code></pre>
       <table>
         <thead><tr><th>Scheme</th><th>Typically used for</th></tr></thead>
         <tbody>
-          <tr><td>Base</td><td>Most of the store — page background and body text</td></tr>
+          <tr><td>Base</td><td>Most of the store, including the page background and body text</td></tr>
           <tr><td>Raised</td><td>Cards and panels sitting above the base background</td></tr>
           <tr><td>Accent</td><td>Highlighted sections and badges</td></tr>
           <tr><td>Deep</td><td>The footer and other dark full-width areas</td></tr>
         </tbody>
       </table>
-      <p><strong>Decorative rules</strong> and <strong>control outlines</strong> are separate settings on purpose.
-      Decorative rules can be soft. Control outlines — around inputs, buttons and selectable options — need to
-      stay clearly visible. See <a href="#accessibility">Accessibility</a>.</p>
+      <p><strong>Decorative rules</strong> and <strong>control outlines</strong> are separate settings.
+      Decorative rules can be soft. Keep outlines around inputs, buttons and selectable options clearly visible.
+      See <a href="#accessibility">Accessibility</a>.</p>
       <h3>Typography</h3>
       <p>Separate fonts for headings and body text, with independent size scales, optional uppercase headings, and
-      letter spacing. Keep heading size at or near 100% unless you have a reason — larger values can cause awkward
+      letter spacing. Keep heading size at or near 100%. Larger values can cause awkward
       line breaks on narrow screens.</p>
       <h3>Layout and Shapes</h3>
       <p>Page width, page margin and the spacing between sections. Under Shapes you'll find corner radii for
-      inputs, buttons and images, plus <strong>Show offset frame behind media</strong> — the rule drawn behind and
-      below images that gives Bramble its look. Turning it off gives a flatter, plainer style.</p>
+      inputs, buttons and images. <strong>Show offset frame behind media</strong> draws a rule behind and below
+      images. Turn it off for a flatter style.</p>
       <h3>Product cards</h3>
       <table>
         <thead><tr><th>Setting</th><th>What it does</th></tr></thead>
@@ -283,7 +283,7 @@ Moisture: 10%</code></pre>
       <p><strong>Group line items by pet</strong> shows a household with several animals as one plan per animal
       rather than a flat list. <strong>Use cart notes</strong> adds a note field at checkout.</p>
       <h3>Social media and Favicon</h3>
-      <p>Paste the full URL for each network you use — empty ones are hidden. The default sharing image is what
+      <p>Paste the full URL for each network you use. Empty fields are hidden. The default sharing image is what
       appears when someone shares a link to your store; 1200 × 628px is recommended.</p>
     </section>
 
@@ -353,8 +353,8 @@ Moisture: 10%</code></pre>
     <section id="subscriptions">
       <h2>Subscriptions and repeat delivery</h2>
       <p>Bramble supports Shopify's native selling plans. Once you've set up a subscription app that creates
-      selling plans, products with one show a delivery selector on the product page — one-time purchase alongside
-      each repeat option, with any saving shown beside it.</p>
+      selling plans, products with one show a delivery selector on the product page. It offers a one-time purchase
+      alongside each repeat option, with any saving shown beside it.</p>
       <p>The selected plan carries through to the cart and checkout, and appears on the line item so shoppers can
       see what they've chosen.</p>
       <div class="note">
@@ -371,8 +371,8 @@ Moisture: 10%</code></pre>
       <p>If you change colours, check two things:</p>
       <ul>
         <li>Each background and its paired text colour stay far enough apart to read comfortably</li>
-        <li>The control outline colour stays clearly darker than your background — this is what makes form fields
-        and buttons visible to people with low vision</li>
+        <li>Keep the control outline colour clearly darker than your background so people with low vision can see
+        form fields and buttons</li>
       </ul>
       <p>A free contrast checker such as the WebAIM Contrast Checker will tell you the ratio for any pair.</p>
       <p>The theme is navigable by keyboard throughout, every interactive control has a visible focus outline, and
@@ -403,8 +403,8 @@ Moisture: 10%</code></pre>
       <details>
         <summary>Will I lose my content if I switch to Bramble?</summary>
         <p>No. Products, collections, pages and blog posts live in your Shopify admin, not in the theme. Section
-        layouts and theme settings don't carry across from another theme, so you'll set those up again — preview
-        before publishing.</p>
+        layouts and theme settings don't carry across from another theme. Set them up again and preview before
+        publishing.</p>
       </details>
       <details>
         <summary>Does the feeding plan give veterinary advice?</summary>
